@@ -7,6 +7,7 @@ export default defineConfig({
 	output: 'static',
 	outDir: 'docs',
     build: {
+		assets: 'assets',
         format: 'file',
     },
 	integrations: [
